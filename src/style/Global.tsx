@@ -42,6 +42,11 @@ const GlobalStyle = createGlobalStyle`
   footer, header, hgroup, menu, nav, section {
     display: block;
   }
+  .btn-main{
+    background:url("images/hyrule/btn_bg.png");
+    background-size:100% 100%;
+    background-color:transparent;
+  }
   body {
     line-height: 1;
     font-size: 16px;
@@ -333,6 +338,10 @@ const GlobalStyle = createGlobalStyle`
     background-repeat:no-repeat;
     min-height: 100vh;
     padding-top:36px;
+    div:nth-child(2){
+      background-color: transparent;
+      border-top: solid 2px rgba(133,133,133,0);
+    }
     @media (max-width: 768px) {
       border-radius:0px;
       margin:0px;

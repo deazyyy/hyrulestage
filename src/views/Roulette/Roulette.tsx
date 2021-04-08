@@ -36,7 +36,7 @@ const data = [
   { option: '20', style: { backgroundColor: '#554137', textColor: 'transparent' } },
   { option: '21', style: { backgroundColor: '#3a3532', textColor: 'transparent' } },
 ]
-const mustSpin = false;
+const mustSpin = true;
 const backgroundColors = ['#ff8f43', '#70bbe0', '#0b3351', '#f9dd50'];
 const textColors = ['#0b3351'];
 const outerBorderColor = '#2d291f';
